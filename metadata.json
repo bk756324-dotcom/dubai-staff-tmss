@@ -1,0 +1,6 @@
+{
+  "name": "Dubai Staff Transport TMS",
+  "description": "Enterprise Dubai Staff Transport Management System with fleet operations, route planning, real-time dispatch, client management, and safety compliance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-arabic: 'Tajawal', 'Cairo', -apple-system, BlinkMacSystemFont, sans-serif;
+
+    /* Dubai Brand Color System */
+    --color-navy-950: #060d17;
+    --color-navy-900: #0a192f;
+    --color-navy-800: #112240;
+    --color-navy-700: #1d3557;
+    --color-navy-600: #2a4365;
+
+    --color-orange-500: #f97316;
+    --color-orange-600: #ea580c;
+    --color-orange-700: #c2410c;
+
+    --color-emerald-500: #10b981;
+    --color-emerald-600: #059669;
+  }
+
+  body {
+    font-family: var(--font-sans);
+  }
+
+  h1, h2, h3, .font-heading {
+    font-family: var(--font-display);
+  }
+
+  [dir="rtl"] body {
+    font-family: var(--font-arabic);
+  }
+}
+
+/* Custom Scrollbar for Dense Operations Screens */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
